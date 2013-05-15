@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout android:id="@+id/contentViewLayout"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginBottom="55dip">
+	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical" android:gravity="center">
+			
+		</LinearLayout>
+		<TextView android:id="@+id/state" android:textSize="12pt"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/text_title_intent" 
+			android:focusable="true"/>
+		<ExpandableListView android:id="@+id/android:list"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		</ExpandableListView>
+		<TextView android:id="@+id/text_state" android:textSize="8pt"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/text_exsample_2" 
+			 />
+	</LinearLayout>
+
+
+	<LinearLayout android:id="@+id/contentViewLayout"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="55dip" 
+		android:layout_alignParentBottom="true" android:gravity="center">
+		<Button android:id="@+id/btnStartIntent" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:text="@string/begin_talk"></Button>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string-array name="icon">
+		<item>android.R.drawable.sym_contact_card</item>
+		<item>android.R.drawable.sym_action_call</item>
+		<item>android.R.drawable.ic_menu_preferences</item>
+	</string-array>
+	<string-array name="label">
+		<item>语\n音\n拨\n号</item>
+		<item>音\n乐\n控\n制</item>
+		<item>命\n令\n控\n制</item>
+	</string-array>
+	<string-array name="command">
+		<item>查找&lt;联系人&gt;\n通话记录\n回复来电/重拨\n打电话到
+			&lt;联系人&gt;&lt;住宅电话/工作电话/手机&gt;" </item>
+		<item>"播放&lt;歌曲名&gt;\n播放音乐\n暂停播放/恢复播放\n停止播放"
+		</item>
+		<item>"指令说明\n现在时间\n打开&lt;应用软件&gt;\n本日约会/明日约会/一周约会"
+		</item>
+	</string-array>
+	
+	
+	<!-- Sensitivity level -->
+	<string-array name="sensitivity_entries">
+	        <item>5级</item>
+	        <item>4级</item>
+	        <item>3级</item>
+	        <item>2级</item>
+	        <item>1级</item>
+	</string-array>
+	<string-array name="sensitivity_values">
+	        <item>5</item>
+	        <item>4</item>
+	        <item>3</item>
+	        <item>2</item>
+	        <item>1</item>
+	</string-array>
+	
+	<!-- Response timeout  -->
+	<string-array name="response_timeout_entries">
+	        <item>5秒</item>
+	        <item>4秒</item>
+	        <item>3秒</item>
+	        <item>2秒</item>
+	        <item>1秒</item>
+	</string-array>
+	<string-array name="response_timeout_values">
+	        <item>5000</item>
+	        <item>4000</item>
+	        <item>3000</item>
+	        <item>2000</item>
+	        <item>1000</item>
+	</string-array>
+	
+	
+	<!-- Speech timeout  -->
+	<string-array name="speech_timeout_entries">
+	        <item>5秒</item>
+	        <item>4秒</item>
+	        <item>3秒</item>
+	        <item>2秒</item>
+	        <item>1秒</item>
+	</string-array>
+	<string-array name="speech_timeout_values">
+	        <item>5000</item>
+	        <item>4000</item>
+	        <item>3000</item>
+	        <item>2000</item>
+	        <item>1000</item>
+	</string-array>
+		
+	
+</resources>

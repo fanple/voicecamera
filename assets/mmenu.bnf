@@ -1,0 +1,16 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar mmenu;
+!slot <songs>;
+!start <begin>;
+<begin>:拨打<songs>;
+<songs>:119|
+喜欢你
+|刘德华
+|周华健
+|一生爱你千百回
+|你是我最爱的人|
+VGA|
+电视|
+数字电视|
+视频一|
+视频二;

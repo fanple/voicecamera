@@ -1,0 +1,21 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar mmenu;
+!slot <camera>;
+!start <begin>;
+<begin>:[相机]<camera>;
+<camera>:拍照!id(100)
+|smile!id(101)
+|茄子!id(102)
+|来一张!id(103)
+|拍一张!id(104)
+|放大!id(150)
+|缩小!id(160)
+|正常色!id(200)
+|正常色彩!id(201)
+|单色!id(202)
+|棕褐色!id(203)
+|负片!id(204)
+|水蓝色!id(205)
+|黑板!id(206)
+|白板!id(207)
+|退出!id(999);
